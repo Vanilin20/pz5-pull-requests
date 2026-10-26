@@ -1,0 +1,31 @@
+# --- Операційна система ---
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# --- Редактори та IDE ---
+.vscode/
+.idea/
+.vs/
+*.suo
+*.swp
+
+# --- C# / .NET / ASP.NET Core ---
+bin/
+obj/
+*.user
+*.userprefs
+*.nupkg
+TestResults/
+publish/
+
+# --- Локальні секрети та налаштування середовища ---
+.env
+.env.*
+appsettings.Development.json
+appsettings.Local.json
+*.pfx
+
+# --- Тимчасові файли Office ---
+~$*
+*.tmp

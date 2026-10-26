@@ -1,0 +1,16 @@
+# Нормалізація кінців рядків для всіх текстових файлів
+* text=auto
+
+# Вихідний код і текстові документи
+*.cs     text diff=csharp
+*.csproj text
+*.sln    text eol=crlf
+*.md     text
+*.json   text
+
+# Бінарні файли: без порядкового diff і без зміни кінців рядків
+*.docx binary
+*.xlsx binary
+*.pdf  binary
+*.png  binary
+*.jpg  binary
